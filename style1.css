@@ -77,3 +77,8 @@ button {
 .fa-solid {
     margin-left: 10px;
 }
+@media (max-width: 575px) {
+    body {
+        background-image: url(Webp.net-resizeimage.jpg);
+    }
+}
