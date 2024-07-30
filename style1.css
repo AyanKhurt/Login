@@ -1,84 +1,89 @@
 body {
-    background-image: url(back2.jpg);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('back2.jpg') no-repeat center center fixed;
     background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    padding-top: 5%;
-    background-attachment: fixed;
+    font-family: Arial, sans-serif;
 }
-.container {
 
+.login-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
 }
-div h1 {
+
+.login-form {
+    max-width: 300px;
+    margin: auto;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
     color: white;
 }
 
-.div1 {
-    text-align: center;
-    background-color: rgb(212, 143, 53);
-    height: 400px;
-    width: 350px;
-    border-radius: 15px;
-    background-color: transparent ;
-    /* background-image: u);
-    background-repeat: no-repeat;
-    background-size: cover; */
-    border: 1px solid rgb(153, 146, 146);
+.input-group {
+    margin-bottom: 15px;
 }
-.input1 {
-    background-color: transparent;
+
+.input-group input {
+    width: 95%;
+    padding: 10px;
     border: none;
-    border-bottom: 3px solid rgb(153, 146, 146);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.8);
 }
-.span1 {
-    border: 1px solid white;
-    color: rgb(118, 112, 112);
-    padding: 15px;
-    border-radius: 20px;
+
+.options {
     display: flex;
-    justify-content: center;
-    margin: 25px;
-}
-label {
+    justify-content: space-between;
+    align-items: center;
     color: white;
+    margin-bottom: 15px;
 }
-.span2 {
+
+.options label {
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
-.c1 {
-    margin-left: 40px;
+
+.options a {
+    color: #8a2be2;
     text-decoration: none;
 }
-.c1:hover {
+
+.options a:hover {
     text-decoration: underline;
 }
+
 button {
-    margin-top: 20px;
-    width: 300px;
-    height: 40px;
-    border-radius: 20px;
-    border-color: white;
-    font-weight: 900;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #8a2be2;
+    color: white;
+    cursor: pointer;
 }
-.last {
-    color: rgb(6, 5, 5);
+
+button:hover {
+    background: #7a23d3;
 }
-.last a {
-    color: rgb(0, 0, 0);
+
+p {
+    color: white;
+}
+
+p a {
+    color: #8a2be2;
     text-decoration: none;
-    margin-left: 5px;
-    font-weight: bolder;
 }
-.fa-regular {
-    margin-left: 10px;
-}
-.fa-solid {
-    margin-left: 10px;
-}
-@media (max-width: 575px) {
-    body {
-        background-image: url(abc/575.jpg);
-    }
+
+p a:hover {
+    text-decoration: underline;
 }
