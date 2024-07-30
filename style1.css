@@ -5,6 +5,7 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 5%;
+    background-attachment: fixed;
 }
 .container {
 
@@ -24,7 +25,6 @@ div h1 {
     background-repeat: no-repeat;
     background-size: cover; */
     border: 1px solid rgb(153, 146, 146);
-    position: fixed;
 }
 .input1 {
     background-color: transparent;
@@ -79,6 +79,7 @@ button {
 }
 @media (max-width: 575px) {
     body {
-        background-image: url(Webp.net-resizeimage.jpg);
+        background-image: url(abc/575.jpg);
+        padding-top: 50%;
     }
 }
