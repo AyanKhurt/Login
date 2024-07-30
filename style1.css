@@ -80,6 +80,5 @@ button {
 @media (max-width: 575px) {
     body {
         background-image: url(abc/575.jpg);
-        padding-top: 50%;
     }
 }
